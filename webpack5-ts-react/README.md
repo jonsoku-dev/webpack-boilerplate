@@ -1,3 +1,10 @@
+# tsconfig.json <-> babel
+`tsconfig.json` : ts/tsx 파일에 타이핑할때 타이핑을 검사해주는 놈
+
+`babel` : 실제 webpack에서 변환할때 필요한 놈
+
+alias 관련해서 두군데 다 설정해야하는 이유이다.
+
 ## Dev Install
 ```shell
 npm i react react-dom typescript @types/react @types/react-dom
