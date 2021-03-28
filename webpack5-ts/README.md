@@ -17,3 +17,7 @@ npm i -D html-webpack-plugin clean-webpack-plugin mini-css-extract-plugin connec
 npm i -D @types/html-webpack-plugin @types/clean-webpack-plugin @types/mini-css-extract-plugin @types/optimize-css-assets-webpack-plugin @types/terser-webpack-plugin @types/copy-webpack-plugin @types/fork-ts-checker-webpack-plugin
 ```
 
+## git-hook
+```shell
+npm i -D husky@4 lint-staged
+```
