@@ -34,3 +34,8 @@ npm i -D @types/react @types/react-dom @types/react-router-dom @babel/preset-rea
 npm i -D eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y
 ```
 
+## Emotion
+```shell
+npm i -D @emotion/babel-plugin
+npm i @emotion/styled @emotion/react
+```

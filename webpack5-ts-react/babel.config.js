@@ -18,10 +18,10 @@ module.exports = {
   ],
   env: {
     development: {
-      plugins: [require.resolve('react-refresh/babel')],
+      plugins: [['@emotion', { sourceMap: true }], require.resolve('react-refresh/babel')],
     },
-    // production: {
-    //   plugins: ['@emotion'],
-    // },
+    production: {
+      plugins: ['@emotion'],
+    },
   },
 };

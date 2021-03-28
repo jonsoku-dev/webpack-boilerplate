@@ -99,8 +99,13 @@ const config = {
     }),
     new CleanWebpackPlugin(),
     ...(isDevelopment
-      ? [new webpack.HotModuleReplacementPlugin(), new ReactRefreshWebpackPlugin()]
+      ? [
+          new webpack.EnvironmentPlugin({ NODE_ENV: 'development' }),
+          new webpack.HotModuleReplacementPlugin(),
+          new ReactRefreshWebpackPlugin(),
+        ]
       : [
+          new webpack.EnvironmentPlugin({ NODE_ENV: 'production' }),
           new MiniCssExtractPlugin({
             filename: '[name].css',
           }),
