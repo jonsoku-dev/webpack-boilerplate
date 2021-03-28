@@ -1,7 +1,7 @@
 # install
 ## 기타
 ```shell
-npm i -D ts-node cross-env typescript @typescript-eslint/eslint-plugin@latest @typescript-eslint/parser@latest eslint@latest prettier@latest eslint-config-prettier eslint-plugin-prettier
+npm i -D ts-node cross-env typescript @typescript-eslint/eslint-plugin@latest @typescript-eslint/parser@latest eslint@latest prettier@latest eslint-config-prettier eslint-plugin-prettier eslint-plugin-simple-import-sort
 npm i -D @types/node
 ```
 
@@ -26,5 +26,11 @@ npm i -D husky@4 lint-staged
 ```shell
 npm i react react-dom react-router-dom
 npm i -D @types/react @types/react-dom @types/react-router-dom @babel/preset-react @babel/preset-typescript @pmmmwh/react-refresh-webpack-plugin react-refresh
+```
+
+
+## React lint
+```shell
+npm i -D eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y
 ```
 
