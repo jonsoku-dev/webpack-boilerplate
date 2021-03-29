@@ -39,5 +39,16 @@ module.exports = {
     'simple-import-sort/exports': 'error',
     '@typescript-eslint/no-unused-vars': 'error',
     '@typescript-eslint/no-empty-interface': 'off',
+    'react/react-in-jsx-scope': 'off',
+    'react/prop-types': 'off',
+    '@typescript-eslint/explicit-function-return-type': 'off',
+    'jsx-a11y/anchor-is-valid': [
+      'error',
+      {
+        components: ['Link'],
+        specialLink: ['hrefLeft', 'hrefRight'],
+        aspects: ['invalidHref', 'preferButton'],
+      },
+    ],
   },
 };

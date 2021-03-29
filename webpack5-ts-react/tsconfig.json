@@ -9,6 +9,7 @@
     "target": "es5",
     "strict": true,
     "resolveJsonModule": true,
+    "jsxImportSource": "@emotion/react", // for emotion inline css
     "baseUrl": "./src",
     "paths": {
       "@/*": ["./*"]

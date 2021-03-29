@@ -13,7 +13,19 @@ module.exports = {
         },
       },
     ],
-    '@babel/preset-react',
+    [
+      '@babel/preset-react',
+      {
+        useBuiltIns: true,
+      },
+    ],
+    [
+      '@emotion/babel-preset-css-prop',
+      {
+        autoLabel: 'dev-only',
+        labelFormat: '[local]',
+      },
+    ],
     '@babel/preset-typescript',
   ],
   env: {
